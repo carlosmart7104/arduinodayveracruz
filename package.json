@@ -1,0 +1,30 @@
+{
+  "name": "m3talks2018",
+  "version": "0.3.1",
+  "description": "Conferenicas de tecnología en Veracruz-Boca del Rio. 2018",
+  "engines": {
+    "node": "6.12.1"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node test.js"
+  },
+  "dependencies": {
+    "ejs": "^2.5.6",
+    "express": "^4.15.2"
+  },
+  "devDependencies": {
+    "request": "^2.81.0",
+    "tape": "^4.7.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/carlosmart7104/m3talks2018.git"
+  },
+  "keywords": [
+    "M3",
+    "talks"
+  ],
+  "license": "MIT"
+}
