@@ -1,7 +1,7 @@
 {
-  "name": "m3talks2018",
-  "version": "0.3.1",
-  "description": "Conferenicas de tecnología en Veracruz-Boca del Rio. 2018",
+  "name": "Arduino Day Veracruz",
+  "version": "0.0.1",
+  "description": "Página Web del segundo Arduino Day Veracruz",
   "engines": {
     "node": "6.12.1"
   },
@@ -20,11 +20,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/carlosmart7104/m3talks2018.git"
+    "url": "https://github.com/carlosmart7104/arduinodayveracruz.git"
   },
   "keywords": [
-    "M3",
-    "talks"
+    "Arduino",
+    "Day",
+    "Veracruz"
   ],
-  "license": "MIT"
+  "license": "Apache 2.0"
 }

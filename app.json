@@ -1,8 +1,8 @@
 {
-  "name": "M3 Talks 2018",
-  "description": "Conferencias de tecnología en Veracruz-Boca del Rio. 2018",
-  "repository": "https://github.com/carlosmart7104/m3talks2018.git",
+  "name": "Arduino Day Veracruz",
+  "description": "Página Web del segundo Arduino Day Veracruz",
+  "repository": "https://github.com/carlosmart7104/arduinodayveracruz.git",
   "logo": "https://cdn.rawgit.com/heroku/node-js-getting-started/master/public/node.svg",
-  "keywords": ["m3","Talks"],
+  "keywords": ["Arduino","Day","Veracruz"],
   "image": "heroku/nodejs"
 }
