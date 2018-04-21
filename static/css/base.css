@@ -1,0 +1,22 @@
+/*
+Arduino Colors
+Teal	Light Teal	Orange	Yellow	Brown
+#00878F	#62AEB2	    #E47128	#E5AD24	#8C7965
+*/
+.bg-teal {
+	background-color: #00878F;
+}
+
+nav .nav-link {
+	color: #62AEB2 !important;
+}
+nav .nav-link:hover {
+	color: #00878F !important;
+}
+nav .disabled, nav .disabled:hover {
+	color: #8C7965 !important;
+}
+
+#navbar-logo {
+	max-height: 100px;
+}
