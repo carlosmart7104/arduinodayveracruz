@@ -7,6 +7,18 @@ Teal	Light Teal	Orange	Yellow	Brown
 	background-color: #00878F;
 }
 
+.section-title {
+	display: block;
+	width: 100%;
+	padding-top: 25px;
+	margin-bottom: 10px;
+	font-weight: bold;
+	font-size: 47px;
+	text-transform: uppercase;
+	text-align: center;
+	color: #00878F;
+}
+
 nav .nav-link {
 	color: #62AEB2 !important;
 }
@@ -17,6 +29,6 @@ nav .disabled, nav .disabled:hover {
 	color: #8C7965 !important;
 }
 
-#navbar-logo {
-	max-height: 100px;
+.navbar-logo {
+	max-height: 80px;
 }

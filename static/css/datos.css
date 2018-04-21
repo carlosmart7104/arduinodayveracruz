@@ -1,0 +1,32 @@
+.datos {
+	margin-top: 15px;
+	width: 100%;
+	float: right;
+	font-family: Source Sans Pro;
+	padding: 15px;
+}
+
+.datos #countdown {
+	color: #E47128;
+	font-weight: bold;
+	display: inline-block;
+	font-size: 35px;
+	text-transform: uppercase;
+}
+
+.datos .fecha {
+	font-size: 47px;
+	text-align: right;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #00878F;
+	line-height: 0.5;
+}
+
+.datos .lugar {
+	float: right;
+	font-size: 25px;
+	font-weight: lighter;
+	color: #E5AD24;
+	padding-right: 5px;
+}

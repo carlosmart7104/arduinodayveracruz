@@ -1,8 +1,13 @@
 /* Custom WebSite Styles */
 @import url('fonts.css');
+@import url('datos.css');
 @import url('video.css');
 @import url('portada.css');
 @import url('quote-card.css');
+@import url('row-stripped.css');
+@import url('talleres.css');
+@import url('patrocinadores.css');
+@import url('aliados.css');
 @import url('team.css');
 @import url('special-footer.css');
 @import url('base.css');
