@@ -37,9 +37,9 @@
 
 $('#clock').countdown('2018/05/12 10:00:00').on('update.countdown', function(event) {
        var $this = $(this).html(event.strftime(''
-         + '<div><span>%-w</span>week%!w</div>'
-         + '<div><span>%-d</span>day%!d</div>'
-         + '<div><span>%H</span>hr</div>'
-         + '<div><span>%M</span>min</div>'
-         + '<div><span>%S</span>sec</div>'));
+         + '<div><span>%-w</span>Semana%!w</div>'
+         + '<div><span>%-d</span>Dia%!D</div>'
+         + '<div><span>%H</span>Hora%!H</div>'
+         + '<div><span>%M</span>Minuto%!M</div>'
+         + '<div><span>%S</span>Segundo%!S</div>'));
      });

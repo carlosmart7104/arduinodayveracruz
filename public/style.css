@@ -155,9 +155,10 @@ body {
   background-position:center center;
   background-size:cover;
   width:100%;
+  max-width: 100vw;
   height:100%;
   z-index:0;
-  backface-visibility:hidden
+  backface-visibility:hidden;
 }
 
 .overlay {
