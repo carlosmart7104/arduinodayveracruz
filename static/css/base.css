@@ -32,3 +32,7 @@ nav .disabled, nav .disabled:hover {
 .navbar-logo {
 	max-height: 80px;
 }
+
+.card {
+	border-color: transparent;
+}
