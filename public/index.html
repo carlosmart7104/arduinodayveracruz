@@ -1,0 +1,722 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title>Arduino Day 2019 Veracruz</title>
+		<script src="https://unpkg.com/leaflet@1.0.2/dist/leaflet.js"></script>
+		<link rel="stylesheet" href="reset.css">
+		<link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.2/dist/leaflet.css" />
+	</head>
+	<body>
+			<link href="https://fonts.googleapis.com/css?family=Roboto|Spinnaker" rel="stylesheet">
+
+
+	<div class="nav">
+		<div class="nav-header">
+			<div class="nav-title">
+				<a href="#home" >
+				<img src="./media/logo.svg" alt="">
+			</a>
+			</div>
+		</div>
+		<div class="nav-btn">
+			<label for="nav-check">
+			<span></span>
+			<span></span>
+			<span></span>
+			</label>
+		</div>
+		<input type="checkbox" id="nav-check">
+		<div class="nav-links">
+			<a href="#que" >¿QUÉ ES ARDUINO DAY?</a>
+			<a href="#conferencias" >CONFERENCIAS</a>
+			<a href="#concursos" >CONCURSOS</a>
+			<a href="#feria">FERIA MAKER</a>
+			<a href="#talleres" >TALLERES</a>
+			<a href="#organizadores">ORGANIZADORES</a>
+			<a href="#unete1">ÚNETE</a>
+			<a href="#Patrocinadores">PATROCINADORES</a>
+			<a href="#aliados">ALIADOS</a>
+			<a href="#ubicacion">UBICACIÓN</a>
+		</div>
+	</div>
+
+	<div class="container" id="home">
+		<div class="hero-image">
+				<section class="portada">
+						<h1 id="ard">ARDUINO</h1>
+						<H1 id="day">DAY</H1>
+						<h3>16 MARZO 2019</h3>
+						<h6>10:00 a 18:00</h6>
+						<h4>Plaza Nuevo Veracruz, <span>Veracruz</span></h4>
+						<button onclick="window.location='https://arduinodayveracruz2019.boletia.com'">registrate</button>
+					</section>
+		  </div>	
+		
+		<div class="Conocenos" id="que">
+			<img src="/media/internacional.jpg" class="interna">
+			<h2>Acompáñanos a celebrar Arduino Day.</h2>
+			<p>Una celebración mundial donde la comunidad se reúne a compartir experiencias. No importa si eres es estudiante, ingeniero, diseñador, artista o hacedor. Este evento es para tí</p>
+			
+		</div>
+		<div class="diagonal">
+
+		</div>
+		<div class="titulos">
+			<h1 id="conferencias">Conferencias</h1>
+		</div>
+
+		<div id="conferenciasMovil">
+		<div class="Conferencias" id="que">
+			<div class="confe1">
+				<img src="./media/cara.png" id="imgLula">
+			<h2 id="conLula">Implementación de la Tecnologias IBM con Arduino y Open Source</h2>
+			<h1 id="namLula">Juan Antonio Amat</h1>
+			<h3 id="desLula">IBM Advocate</h3>
+			</div>
+		</div>
+		<div class="Conferencias">
+			<div class="confe1">
+				<img src="./media/ArduinoD19_VictorLeyva.png" id="imgvictor">
+			<h2 id="convictor">Instrumentación y control virtual Automotriz</h2>
+			<h1 id="namvictor">Victor Leyva</h1>
+			<h3 id="desvictor">Vicar Racing</h3>
+
+			</div>
+		</div>
+		<div class="Conferencias">
+			<div class="confe1">
+				<img src="./media/ArduinoD19_Technovation.png" id="imgtech">
+			<h2 id="contech">Niñas y Mujeres en Tecnología</h2>
+			<h1 id="namtech">Equipos Technovation</h1>
+			<h3 id="destech">Technovation Veracruz</h3>
+			</div>
+		</div>
+		<div class="Conferencias">
+			<div class="confe1">
+				<img src="./media/ArduinoD19_LeonardoSantiago.png" id="imgdev">
+			<h2 id="condev">Developers 4.0: Los nuevos héroes digitales ejemplificado</h2>
+			<h1 id="namdev">Leonardo Santiago</h1>
+			<h3 id="desdev">CEO y Cofundandor de Kodemia</h3>
+			</div>
+		</div>
+		<div class="Conferencias">
+			<div class="confe1">
+				<img src="./media/ArduinoD19_HeroyMuñoz.png" id="imgayu">
+			<h2 id="conayu">La Agenda para el Desarrollo Sostenible perspectivas y retos</h2>
+			<h1 id="namayu">Heroy Muñoz</h1>
+			<h3 id="desayu">Subdirección de Innovacion de H. Ayuntamiento de Veracruz</h3>
+			</div>
+		</div>
+		</div>
+
+		<div id="conferenciasdesktop">
+			<img src="./media/cara.png" id="imgLula">
+			<h2 id="conLula">Implementación de la Tecnologias IBM con Arduino y Open Source</h2>
+			<h1 id="namLula">Juan Antonio Amat</h1>
+			<h3 id="desLula">IBM Advocate</h3>
+
+			<img src="./media/ArduinoD19_VictorLeyva.png" id="imgvictor">
+			<h2 id="convictor">Instrumentación y control virtual Automotriz</h2>
+			<h1 id="namvictor">Victor Leyva</h1>
+			<h3 id="desvictor">Vicar Racing</h3>
+
+			<img src="./media/ArduinoD19_Technovation.png" id="imgtech">
+			<h2 id="contech">Niñas y Mujeres en Tecnología</h2>
+			<h1 id="namtech">Equipos Technovation</h1>
+			<h3 id="destech">Technovation Veracruz</h3>
+		</div>
+		<div id="losdeabajo">
+			<img src="./media/ArduinoD19_LeonardoSantiago.png" id="imgdev">
+			<h2 id="condev">Developers 4.0: Los nuevos héroes digitales ejemplificado</h2>
+			<h1 id="namdev">Leonardo Santiago</h1>
+			<h3 id="desdev">CEO y Cofundandor de Kodemia</h3>
+
+			<img src="./media/ArduinoD19_HeroyMuñoz.png" id="imgayu">
+			<h2 id="conayu">La Agenda para el Desarrollo Sostenible perspectivas y retos</h2>
+			<h1 id="namayu">Heroy Muñoz</h1>
+			<h3 id="desayu">Subdirección de Innovacion de H. Ayuntamiento de Veracruz</h3>
+		</div>
+
+		<!--concursos-->
+		<div id="concursos">
+		<div id="movilmaker">
+			<div class="titulos">
+				<h1 id="concursos">Concursos</h1>
+			</div>
+			<div class="Conocenos">
+				<h4>SUMO RADIO CONTROL</h4>
+				<img src="/media/sumo.jpg" class="segunda">
+				<p>Encuentra la manera de sacar a tus enemigos del dohyo, el último en quedar será el ganador</p>
+				
+				<p></p>
+				<button class="boton" onclick="window.location='https://docs.google.com/forms/d/e/1FAIpQLSe900Q_XwdhaVnus8h1_HpNEsKlT8ALqUtBZTpOd4tjkwrQlw/viewform'">Regístrate como competidor</button>
+				<br>
+			</div>
+			<div class="diagonalDoble"></div>
+			<div class="Conocenos2">
+					<h3>PERSECUCIÓN</h3>
+					<img src="/media/internacional.jpg" class="segunda2">
+					<p>Gana la carrera de robots seguidores de línea, sin salirte del circuito</p>
+					
+					<button onclick="window.location='https://docs.google.com/forms/d/e/1FAIpQLSe900Q_XwdhaVnus8h1_HpNEsKlT8ALqUtBZTpOd4tjkwrQlw/viewform'">Regístrate como competidor</button>
+					<br>
+			</div>
+		</div>
+		
+		<div class="desktop">
+			<div class="titulos">
+				<h1 id="concursos">Concursos</h1>
+			</div>
+		</div>
+
+		<div id='desktopconcursos'>
+			<div class="contenidoconcurso">
+				<h3 id="sumo">Sumo de radio control</h3>
+				<p id="pcizquierda">Encuentra la manera de sacar a tus enemigos del dohyo, el último en quedar será el ganador.</p>
+				
+				<h3 id="perse">Persecución</h3>
+				<p id="pcderecha">Gana la carrera de robots seguidores de línea, sin salirte del circuito</p>
+				
+				<button onclick="window.location='https://docs.google.com/forms/d/e/1FAIpQLSe900Q_XwdhaVnus8h1_HpNEsKlT8ALqUtBZTpOd4tjkwrQlw/viewform'">Regístrate como competidor</button>
+				<button id="per" onclick="window.location='https://docs.google.com/forms/d/e/1FAIpQLSe900Q_XwdhaVnus8h1_HpNEsKlT8ALqUtBZTpOd4tjkwrQlw/viewform'">Regístrate como competidor</button>
+			</div>
+		</div>
+		</div>
+		<!--Feria Maker-->
+		<div id="feria">
+		<div id="movilmaker">
+		<div class="Conocenos" id="feria">
+			<h3 id="movilmaker">Feria Maker</h3>
+			<img src="/media/internacional.jpg" class="segunda" >
+			<p>Conoce a los proyectos de diferentes makers que utilizan arduino y aprende de la utilidad que puede tener en la vida diaria y en la industria, así como la filosofía DIY (Hazlo por ti mismo). </p>
+			
+			<p></p>
+			<br>
+		</div>
+		<div class="diagonalDoble"></div>
+		<div class="Conocenos2">
+				<h3>¡Muestranos tus proyectos !</h3>
+				<img src="/media/internacional.jpg" class="segunda2">
+				<p>da a conocer tu creatividad de los beneficios de ser maker en una la feria Maker y gana los premios.</p>
+				
+				<button onclick="window.location='https://bit.ly/2DRcLqD'">registrate aquí</button>
+				<br>
+		</div>
+		</div>
+		<div  class="desktop">
+			<div class="titulos">
+				<h1>Feria Maker</h1>
+			</div>
+		</div>
+
+		<div id='desktopmaker'>
+			<div class="contenido"  id="feria">
+				<p id="pizquierda">Conoce a los proyectos de diferentes makers que utilizan arduino y aprende de la utilidad que puede tener en la vida diaria y en la industria, así como la filosofía DIY (Hazlo por ti mismo). </p>
+				
+					<h3>¡Muestranos tus proyectos !</h3>
+					<p id="pderecha">da a conocer tu creatividad de los beneficios de ser maker en una la feria Maker y gana los premios.</p>
+					
+					<button onclick="window.location='https://bit.ly/2DRcLqD'">registrate aquí</button>
+					<br>
+			</div>
+		</div>
+		</div>
+		<!--talleres-->
+		<div id="talleres">
+		<div class="movil">
+		<div class="titulos">
+			<h1 id="talleres">Talleres</h1>
+		</div>
+
+
+		<div class="espacios">
+			<input type="button" value="Monitoreo en tiempo real" onclick="mostrar('soldadura')" class="taller">
+		</div>
+		
+
+		<div id='soldadura' style='display:none;'>
+			<div class="talleres">
+				<img src="./media/LOGOS/4 Telemetria.png">
+				<p id="hora">11 AM - 01 PM</p>
+				<p id="costo">Costo del taller: Gratuito - Donativo sugerido (SIN MATERIAL): $50.00.</p>
+				<p id="materiales">Costo de Material: - Kit(Con Arduino): $320 - Kit (Sin Arduino): $170</p>
+				<p id="descripcion">Aprende a utilizar los módulos BMP180, LCD 16x2 y Arduino Nano para lecturas analógicas.</p>
+				<input type="button" value="Mostrar" onclick="location.href='https://docs.google.com/forms/d/1jEHiy50APcoyPW7BuFoQ-nQawtvTUN_-3iQTfajsXbk/edit';">
+			</div>
+		</div>
+
+		<br>
+		<br>
+		<div class="titulos">
+			<input type="button" value="Soldadura para novatos" onclick="mostrar('taller')" class="taller">
+		</div>
+		
+
+		<div id='taller' style='display:none;'>
+			<div class="talleres">
+				<img src="./media/LOGOS/Bot_Gengar.png">
+				<p id="hora">Horario: 10 AM a 5 PM</p>
+				<p id="costo">Costo del taller: Gratuito</p>
+				<p id="materiales">Costo de material: Kit de soldadura: Robot: $120  Gengar: $250</p>
+				<p id="descripcion">Aprende a soldar tarjetas electrónicas de manera segura</p>
+				<input type="button" value="Mostrar" onclick="location.href='https://docs.google.com/forms/d/1KClCn8G1a9z3Sn1Mv8o6l1kvwZC3gmA3IPcKSRc2CmU/edit';">
+			</div>
+		</div>
+		<br>
+		<br>
+		<div class="titulos">
+			<input type="button" value="Reloj DIY con Arduino" onclick="mostrar('reloj')" class="taller">
+		</div>
+		
+
+		<div id='reloj' style='display:none;'>
+			<div class="talleres">
+				<img src="./media/LOGOS/digital clock.PNG">
+				<p id="hora">11 AM - 01 PM</p>
+				<p id="costo">Gratuito - Donativo sugerido (SIN MATERIAL): $50.00.</p>
+				<p id="materiales">Costo de material: Kit(Con Arduino): $550 - Kit: (Sin Arduino): $360</p>
+				<p id="descripcion">Aprenderás a crear un reloj digital desde cero implementando arduino usando un módulo de reloj en tiempo real.</p>
+				<input type="button" value="Mostrar" onclick="location.href='https://docs.google.com/forms/d/1fviktZ0OK1wNWsdOO_QIPvFc9L8Ltk_XpBsAh6E_4hI/edit';">
+			</div>
+		</div>
+		<br>
+		<br>
+		<div class="titulos">
+			<input type="button" value="Scratch For Arduino" onclick="mostrar('scratch')" class="taller">
+		</div>
+		
+
+		<div id='scratch' style='display:none;'>
+			<div class="talleres">
+				<img src="./media/LOGOS/scratch-360x221.jpg">
+				<p id="hora">11 AM - 01 PM</p>
+				<p id="costo">Gratuito - Donativo sugerido (SIN MATERIAL): $50.00.</p>
+				<p id="materiales">Costo de material: Kit(Con Arduino): $420 - Kit: (Sin Arduino): $220</p>
+				<p id="descripcion">Aprende a utilizar este divertido lenguaje para programar Scratch y a su vez a usar Arduino, conectando a ambos en un solo proyecto.</p>
+				<input type="button" value="Mostrar" onclick="location.href='https://docs.google.com/forms/d/1s75iLw4d29DQtb3hPA4VIO3sGLTzYycae98Ec5NVhTc/edit';">
+			</div>
+		</div>
+		<br>
+		<br>
+		<div class="titulos">
+			<input type="button" value="Data Visualization con React" onclick="mostrar('react')" class="taller">
+		</div>
+		
+
+		<div id='react' style='display:none;'>
+			<div class="talleres">
+				<img src="./media/LOGOS/9 Data react.png">
+				<p id="hora">11 AM - 01 PM</p>
+				<p id="costo">Gratuito - Donativo sugerido (SIN MATERIAL): $50.00.</p>
+				<p id="materiales">Es necesario llevar una computadora para trabajar y si no cuenta con una notificarlo con anticipación.</p>
+				<p id="descripcion">Aprende cómo recoger, almacenar, analizar y visualizar datos de sensores en un dashboard con React y otras tecnologías web.</p>
+				<input type="button" value="Mostrar" onclick="location.href='https://docs.google.com/forms/d/1I7yr_O1-9WsOeXznNLmIn4XNy6NTnLr1yTwnDEBsz6Q/edit';">
+			</div>
+		</div>
+		<br>
+		<br>
+		<div class="titulos">
+			<input type="button" value="Snapcircuits" onclick="mostrar('SNAPCIRCUITS')" class="taller">
+		</div>
+		
+
+		<div id='SNAPCIRCUITS' style='display:none;'>
+			<div class="talleres">
+				<img src="./media/LOGOS/snap2.jpg">
+				<p id="hora">Horario: 2 PM - 4 PM</p>
+				<p id="costo">Costo del taller: Donativo sugerido: $50.00. </p>
+				<p id="materiales">Costo de material: Se prestará material.</p>
+				<p id="descripcion">En este taller verán qué tan fácil es hacer circuitos electrónicos con ayuda de Snapcircuits.</p>
+				<input type="button" value="Mostrar" onclick="location.href='https://goo.gl/forms/hukAaTOnGX16lp0U2';">
+			</div>
+		</div>
+		<br>
+		<br>
+		<div class="titulos">
+			<input type="button" value="Electrónica con Arduino" onclick="mostrar('electronic')" class="taller">
+		</div>
+		
+
+		<div id='electronic' style='display:none;'>
+			<div class="talleres">
+				<img src="./media/LOGOS/6 Arduino.png">
+				<p id="hora">Horario: 2 PM - 4 PM</p>
+				<p id="costo">Costo del taller: Donativo sugerido: $50.00. </p>
+				<p id="materiales">Costo de material: Se prestará material.</p>
+				<p id="descripcion">Introducción a la electrónica con Arduino.</p>
+				<input type="button" value="Mostrar" onclick="location.href='https://goo.gl/forms/lBkZw86i4B4pRzef1';">
+			</div>
+		</div>
+		<br>
+		<br>
+		<div class="titulos">
+			<input type="button" value="circuito conectado a la nube" onclick="mostrar('nube')" class="taller">
+		</div>
+		
+
+		<div id='nube' style='display:none;'>
+			<div class="talleres">
+				<img src="./media/LOGOS/5 Cloud.png">
+				<p id="hora">Horario: 2 PM - 4 PM</p>
+				<p id="costo">Costo del taller: Donativo sugerido: $50.00. </p>
+				<p id="materiales">Costo de material: Kit(Con Arduino): $320, (Sin Arduino): $170.</p>
+				<p id="descripcion">Aprende a conectar a la nube tus proyectos de Arduino.</p>
+				<input type="button" value="Mostrar" onclick="location.href='https://goo.gl/forms/3RtBBIObOFGC328J3';">
+			</div>
+		</div>
+		<br>
+		<br>
+		<div class="titulos">
+			<input type="button" value="Construye un grillo y un órgano" onclick="mostrar('grillo')" class="taller">
+		</div>
+		
+
+		<div id='grillo' style='display:none;'>
+			<div class="talleres">
+				<img src="./media/LOGOS/grillo2.png">
+				<p id="hora">Horario: 2 PM - 4 PM</p>
+				<p id="costo">Costo del taller: $50.00. </p>
+				<p id="materiales">Costo de material: Kit: $180</p>
+				<p id="descripcion">Aprender electrónica resulta ser muy divertida cuando lo haces tu mismo.</p>
+				<input type="button" value="Mostrar" onclick="location.href='https://goo.gl/forms/DEsTFbgZWAhQzLWf2';">
+			</div>
+		</div>
+		<br>
+		<br>
+		</div>
+		
+
+
+
+
+		<div class="desktop">
+				<div class="titulos">
+						<h1 >Talleres</h1>
+				</div>
+			<div id="talleresdesktop">
+				<img src="./media/LOGOS/4 Telemetria.png" id="imgtaller">
+				<h2 id="titulo">Monitoreo en tiempo real de presión atmosférica, temperatura ambiental y altímetro con Arduino</h2>
+				<p id="descripcion">Aprende a utilizar los módulos BMP180, LCD 16x2 y Arduino Nano para lecturas analógicas.</p>
+				<p id="costo">Costo del taller: Gratuito - Donativo sugerido (SIN MATERIAL): $50.00.</p>
+				<p id="materiale">Costo de Material: - Kit(Con Arduino): $320 - Kit (Sin Arduino): $170</p>
+				<h1 id="horario">11 AM - 01 PM</h1>
+				<button id="registrot" onclick="window.location='https://goo.gl/forms/Gct1zWv9Ng3Kc6O72'">regístrate al taller</button>
+	
+				<img src="./media/LOGOS/1 Soldadura.png" id="imgtaller2">
+				<h2 id="titulo2">Taller Soldadura para novatos</h2>
+				<p id="descripcion2">Aprende a soldar tarjetas electrónicas de manera segura</p>
+				<p id="costo2">Costo del taller: Gratuito</p>
+				<p id="materiale2">Costo de material: Kit de soldadura: Robot: $120  Gengar: $250</p>
+				<h1 id="horario2">Horario: 10 AM a 5 PM</h1>
+				<button id="registrot2" onclick="window.location='https://goo.gl/forms/qxcJgZRDvWptCIRu2'">regístrate al taller</button>
+			</div>
+			<div id="talleresdesktop">
+				<img src="./media/LOGOS/3digitalclock.png" id="imgtaller">
+				<h2 id="titulo">Reloj DIY con Arduino</h2>
+				<p id="descripcion">Aprenderás a crear un reloj digital desde cero implementando arduino usando un módulo de reloj en tiempo real.</p>
+				<p id="costo">Costo del taller: Gratuito - Donativo sugerido (SIN MATERIAL): $50.00.</p>
+				<p id="materiale">Costo de material: Kit(Con Arduino): $550 - Kit: (Sin Arduino): $360</p>
+				<h1 id="horario">11 AM - 01 PM</h1>
+				<button id="registrot" onclick="window.location='https://goo.gl/forms/YabegHm9DImeEOKC3'">regístrate al taller</button>
+	
+				<img src="./media/LOGOS/7 Scratch.png" id="imgtaller2">
+				<h2 id="titulo2">Scratch For Arduino</h2>
+				<p id="descripcion2">Aprende a utilizar este divertido lenguaje para programar Scratch y a su vez a usar Arduino, conectando a ambos en un solo proyecto.</p>
+				<p id="costo2">Costo del taller: Gratuito - Donativo sugerido (SIN MATERIAL): $50.00.</p>
+				<p id="materiale2">Costo de material: Kit(Con Arduino): $420 - Kit: (Sin Arduino): $220</p>
+				<h1 id="horario2">11 AM - 01 PM</h1>
+				<button id="registrot2" onclick="window.location='https://goo.gl/forms/5w0ymw4yzX1SKFg93'">regístrate al taller</button>
+
+			</div>
+			<div id="talleresdesktop">
+				<img src="./media/LOGOS/9 Data react.png" id="imgtaller">
+				<h2 id="titulo">Data Visualization con React</h2>
+				<p id="descripcion">Aprende cómo recoger, almacenar, analizar y visualizar datos de sensores en un dashboard con React y otras tecnologías web.</p>
+				<p id="costo">Costo del taller: Gratuito - Donativo sugerido (SIN MATERIAL): $50.00.</p>
+				<p id="materiale">Es necesario llevar una computadora para trabajar y si no cuenta con una notificarlo con anticipación.</p>
+				<h1 id="horario">11 AM - 01 PM</h1>
+				<button id="registrot" onclick="window.location='https://goo.gl/forms/fYzTbJ6DEA43VCQu2'">regístrate al taller</button>
+	
+				<img src="./media/LOGOS/snap2.jpg" id="imgtaller2">
+				<h2 id="titulo2">SNAPCIRCUITS</h2>
+				<p id="descripcion2">En este taller verán qué tan fácil es hacer circuitos electrónicos con ayuda de Snapcircuits.</p>
+				<p id="costo2">Costo del taller: Gratuito - Donativo sugerido (SIN MATERIAL): $50.00.</p>
+				<p id="materiale2">Costo de material: Se prestará material.</p>
+				<h1 id="horario2">Horario: 2 PM - 4 PM</h1>
+				<button id="registrot2" onclick="window.location='https://goo.gl/forms/hukAaTOnGX16lp0U2'">regístrate al taller</button>
+			</div>
+			<div id="talleresdesktop">
+					<img src="./media/LOGOS/ArduinoUNO_bb.png" id="imgtaller">
+					<h2 id="titulo">Electrónica con Arduino</h2>
+					<p id="descripcion">Introducción a la electrónica con Arduino.</p>
+					<p id="costo">Donativo sugerido: $50.00.</p>
+					<p id="materiale">Costo de material: Se prestará material.</p>
+					<h1 id="horario">Horario: 2 PM - 4 PM</h1>
+					<button id="registrot" onclick="window.location='https://goo.gl/forms/lBkZw86i4B4pRzef1'">regístrate al taller</button>
+		
+					<img src="./media/LOGOS/ibm cloud.png" id="imgtaller2">
+					<h2 id="titulo2">Tu primer circuito conectado a la nube de IBM</h2>
+					<p id="descripcion2">Aprende a conectar a la nube tus proyectos de Arduino.</p>
+					<p id="costo2">Costo del taller: Gratuito - Donativo sugerido (SIN MATERIAL): $50.00.</p>
+					<p id="materiale2">Costo de material: Kit(Con Arduino): $320, (Sin Arduino): $170.</p>
+					<h1 id="horario2">Horario: 2 PM - 4 PM</h1>
+					<button id="registrot2" onclick="window.location='https://goo.gl/forms/3RtBBIObOFGC328J3'">regístrate al taller</button>
+	
+				</div>
+				<div id="talleresdesktop">
+					<img src="./media/LOGOS/grillo2.png" id="imgtaller">
+					<h2 id="titulo">Make: Construye un grillo y un órgano de blues</h2>
+					<p id="descripcion">Aprender electrónica resulta ser muy divertida cuando lo haces tu mismo.</p>
+					<p id="costo">Costo del taller: Gratuito - Donativo sugerido (SIN MATERIAL): $50.00.</p>
+					<p id="materiale">Costo de material: Kit: $180</p>
+					<h1 id="horario">Horario: 2 PM - 4 PM</h1>
+					<button id="registrot" onclick="window.location='https://goo.gl/forms/DEsTFbgZWAhQzLWf2'">regístrate al taller</button>
+				</div>
+		</div>
+		<!--organizadores-->
+		<div  id="organizadores">
+		<div class="movil">
+		<div class="titulos">
+			<h1>Organizadores</h1>
+		</div>
+		
+		<div class="Organizadores">
+			<img class="Organizador1" src="./media/ximena.jpg">
+			<h3 class="Name1">Ximena Cruz</h3>
+			<p class="Puesto1">Founder & Co-Dirección</p>
+			<img class="Organizador2" src="./media/luis.jpg">
+			<h3 class="Name2">Luis Santiago</h3>
+			<p class="Puesto2">Robótica</p>
+		</div>
+		<br>
+		<br>
+		<br>
+		<div class="Organizadores">
+			<img class="Organizador1" src="./media/caliche.jpg">
+			<h3 class="Name1">Caliche Orozco</h3>
+			<p class="Puesto1">Voluntarios</p>
+			<img class="Organizador2" src="./media/ArduinoD19_Ramón.jpg">
+			<h3 class="Name2">José Ramón Alomía</h3>
+			<p class="Puesto2">Talleres</p>
+		</div>
+		<br>
+		<br>
+		<br>
+		<div class="Organizadores">
+			<img class="Organizador1" src="./media/ArduinoD19_Manuel.png">
+			<h3 class="Name1">Manuel Molina</h3>
+			<p class="Puesto1">Diseño Grafico</p>
+			<img class="Organizador2" src="./media/ArduinoD19_Karla.jpg">
+			<h3 class="Name2">Karla Alicia Díaz</h3>
+			<p class="Puesto2">Operaciones</p>
+		</div>
+		<br>
+		<br>
+		<br>
+		<div class="Organizadores">
+			<img class="Organizador1" src="./media/charles.jpg">
+			<h3 class="Name1">Carlos Martínez</h3>
+			<p class="Puesto1">Planeación</p>
+		</div>
+		<br>
+		<br>
+		<br>
+		</div>
+
+		<div class="desktop">
+			<div class="titulos">
+				<h1>Organizadores</h1>
+			</div>
+			
+			<div class="Organizadores">
+				<img class="Organizador1" src="./media/ximena.jpg">
+				<h3 class="Name1">Ximena Cruz</h3>
+				<p class="Puesto1">Founder & Co-Dirección</p>
+				<img class="Organizador2" src="./media/luis.jpg">
+				<h3 class="Name2">Luis Santiago</h3>
+				<p class="Puesto2">Robótica</p>
+				<img class="Organizador3" src="./media/caliche.jpg">
+				<h3 class="Name3">Caliche Orozco</h3>
+				<p class="Puesto3">Voluntarios</p>
+			</div>
+			<br>
+			<br>
+			<br>
+			<div class="Organizadores">
+				<img class="Organizador1" src="./media/ArduinoD19_Manuel.png">
+				<h3 class="Name1">Carlos Manuel Molina</h3>
+				<p class="Puesto1">Diseño Grafico</p>
+				<img class="Organizador2" src="./media/ArduinoD19_Karla.jpg">
+				<h3 class="Name2">Karla Alicia Díaz</h3>
+				<p class="Puesto2">Operaciones</p>
+				<img class="Organizador3" src="./media/charles.jpg">
+				<h3 class="Name3">Carlos Jesús Martínez</h3>
+				<p class="Puesto3">Planeación</p>
+			</div>
+			<br>
+			<br>
+			<br>
+			<div class="Organizadores">
+				
+				<img class="Organizador2" src="./media/ArduinoD19_Ramón.jpg">
+				<h3 class="Name2">José Ramón Alomía</h3>
+				<p class="Puesto2">Talleres</p>
+			</div>
+			<br>
+			<br>
+			<br>
+		</div>
+		</div>
+		<!--unete-->
+		<div id="unete1">
+		<div class="movil">
+		<div class="Conocenos" id="conocenos">
+			<h3 >Únete</h3>
+			<h6>¡¡Vive la experencia de formar parte de nuestro equipo!!</h6>
+			<img src="/media/equipo.jpg" id="unete" class="uneteFoto">
+			<p class="unete">Conoce a los proyectos de diferentes makers que utilizan arduino y aprende de la utilidad que puede tener en la vida diaria y en la industria, así como la filosofía DIY (Hazlo por ti mismo). </p>
+			<a href="https://bit.ly/2EmbM3d ">QUIERO UNIRME ❤️</a>
+			<p></p>
+			<br>
+		</div>
+		</div>
+		<div class="desktop">
+				<div id="unete">
+					<img src="/media/equipo.jpg">
+					<h3>Únete</h3>
+					<h6>¡¡Vive la experencia de formar parte de nuestro equipo!!</h6>
+					
+					<p>Conoce a los proyectos de diferentes makers que utilizan arduino y aprende de la utilidad que puede tener en la vida diaria y en la industria, así como la filosofía DIY (Hazlo por ti mismo). </p>
+					<a href="https://bit.ly/2EmbM3d">QUIERO UNIRME ❤️</a>
+					<br>
+				</div>
+		</div>
+		</div>
+
+		<div class="diagonal"></div>
+
+		<!--Patrocinadores-->
+		<div class="titulos" id="Patrocinadores">
+			<h1>Patrocinadores</h1>
+		</div>
+
+		<div class="movil">
+		<div class="Aliados">
+			<img class="logo" src="./media/geekbot.jpg">
+		</div>
+		<div class="Aliados">
+			<img class="logo" src="./media/vmaker.jpg">
+		</div>
+		<div class="Aliados">
+			<img class="logo" src="./media/vracing.jpg">
+		</div>
+		</div>
+
+		<div class="desktop">
+				<div class="Aliados">
+					<img class="logo" src="./media/geekbot.jpg">
+					<img class="logo2" src="./media/vmaker.jpg">
+					<img class="logo3" src="./media/vracing.jpg">
+				</div>
+		</div>
+		<!--aliados-->
+		<div class="titulos" id="aliados">
+				<h1>Aliados</h1>
+			</div>
+	
+			<div class="movil">
+			<div class="Aliados">
+				<img class="logo" src="./media/LOGOS/1.png">
+			</div>
+			<div class="Aliados">
+				<img class="logo" src="./media/LOGOS/2.jpg">
+			</div>
+			<div class="Aliados">
+				<img class="logo" src="./media/LOGOS/3.png">
+			</div>
+			<div class="Aliados">
+					<img class="logo" src="./media/LOGOS/Computer-Society-Logo.png">
+				</div>
+				<div class="Aliados">
+					<img class="logo" src="./media/LOGOS/Logo_web.png">
+			</div>
+			<div class="Aliados">
+					<img class="logo" src="./media/LOGOS/Repepena.jpg">
+				</div>
+				<div class="Aliados">
+					<img class="logo" src="./media/LOGOS/geek.jpg">
+			</div>
+			<div class="Aliados">
+					<img class="logo" src="./media/LOGOS/RAMA IEEE LOGO SIN FONDO 2.png">
+				</div>
+				<div class="Aliados">
+					<img class="logo" src="./media/LOGOS/Technovation-Challenge-Logo.png">
+			</div>
+			</div>
+	
+			<div class="desktop">
+					<div class="Aliados">
+						<img class="logo" src="./media/LOGOS/1.png">
+						<img class="logo2" src="./media/LOGOS/2.jpg">
+						<img class="logo3" src="./media/LOGOS/3.png">
+					</div>
+					<div class="Aliados">
+						<img class="logo" src="./media/LOGOS/Computer-Society-Logo.png">
+						<img class="logo2" src="./media/LOGOS/Logo_web.png">
+						<img class="logo3" src="./media/LOGOS/Repepena.jpg">
+					</div>
+					<div class="Aliados">
+						<img class="logo" src="./media/LOGOS/geek.jpg">
+						<img class="logo2" src="./media/LOGOS/RAMA IEEE LOGO SIN FONDO 2.png">
+						<img class="logo3" src="./media/LOGOS/Technovation-Challenge-Logo.png">
+					</div>
+			</div>
+		<!--ubicacion-->
+		<div id="ubicacion">
+		<div class="titulos">
+			<h1>Ubicación</h1>
+		</div>
+		<div class="ubicacion">
+			<h1 >Plaza Nuevo Veracruz</h1>
+			<div id="direccion">
+				<div class="desktop">
+					<p>Circuito Nuevo Veracruz Local B21, Hacienda Los Portales Secc Sur, 91697 Veracruz, Ver.
+						</p>
+				</div>
+			</div>
+		</div>
+		<div id = 'map'>
+		</div>
+		<br>
+		<div class="movil">
+		<div class="ubicacion">
+			<p>Circuito Nuevo Veracruz Local B21, Hacienda Los Portales Secc Sur, 91697 Veracruz, Ver.</p>
+		</div>
+		</div>
+		</div>
+
+		<div class="footer">
+			<p id='cont'>Contactos:</p>
+			<p id='ard'>arduinodayveracruz@gmail.com</p>
+			<a id='fac' style="text-decoration:none; " href="https://web.facebook.com/events/232774687493175/">facebook</a>
+			<a id='git' style="text-decoration:none; " href="https://github.com/carlosmart7104/arduinodayveracruz">GitHub</a>
+			<a id='con' style="text-decoration:none;"  href="https://web.facebook.com/mundomecatronico/">Con :hearth:, By: Mundo Mecatronico</a>
+			<p id='som'>#SomosComunidad</p>
+			<p id='des'>Desarrollado por:</p>
+			<a id='dan' style="text-decoration:none;"  href="https://github.com/Daniel-Martinez24">Daniel Martìnez</a>
+			<p id='sup'>Supervisado por:</p>
+			<a id='car' style="text-decoration:none;" href="https://github.com/carlosmart7104">Carlos Martìnez</a>
+			<p id='c201'>© 2016 Arduino Day</p>
+			<p id='all'>All Rights Reserved.</p>
+		</div>
+	</div>
+<link rel="stylesheet" type="text/css" href="style.css">
+<script type="text/javascript" src="main.js"></script>
+</body>
+</html>
