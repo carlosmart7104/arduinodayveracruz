@@ -428,6 +428,7 @@ seccion conocenos
   }
   .Conocenos img {
     width: 100%;
+    height: 100%;
     grid-column-start: 4;
     grid-row-start: 1;
     grid-row-end: 4;
@@ -1683,9 +1684,9 @@ Feria Maker
   #pizquierda {
     color: #fff;
     grid-column-start: 2;
-    grid-row-start: 2;
+    grid-row-start: 6;
     font-family: Spinnaker;
-    font-size: 28px;
+    font-size: 20px;
     font-weight: 100; 
   }
   #pderecha {
