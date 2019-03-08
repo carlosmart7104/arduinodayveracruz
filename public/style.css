@@ -1448,7 +1448,7 @@ Conferencias
     color: #000;
     display: grid;
     grid-template-columns: 5% 45% 45% 5%;
-    grid-template-rows:10px 150px 5px;
+    grid-template-rows:10px 150px 15px;
     
   }
   .Conferencias h1 {
@@ -3017,7 +3017,7 @@ color: #FFFFFF;
 /*
 partes resonsibas
 */
-@media screen and (max-width: 1241px) {
+@media screen and (max-width: 1241px) and (min-width:602px) {
   .portada #ard {
     font-family: 'Roboto', sans-serif;
     font-weight: 100;
@@ -3048,33 +3048,29 @@ partes resonsibas
     padding-top: -10px;
   }
 }
-
 @media screen and (max-width: 1147px) {
-  .contenidoconcurso button {
-    background-color: #018790;
-    grid-row-start: 9;
-    grid-row-end: 11;
-    grid-column-start: 3;
-    grid-column-end: 4;
-    font-family: Spinnaker;
-    color: #fff;
-    height: 50%;
-  }
-  #per {
-    background-color: #018790;
-    grid-row-start: 9;
-    grid-row-end: 11;
-    grid-column-start: 8;
-    grid-column-end: 9;
-    font-family: Spinnaker;
-    color: #fff;
-    height: 50%;
-  }
+    .contenidoconcurso button {
+      background-color: #018790;
+      grid-row-start: 9;
+      grid-row-end: 11;
+      grid-column-start: 3;
+      grid-column-end: 4;
+      font-family: Spinnaker;
+      color: #fff;
+      height: 50%;
+    }
+    #per {
+      background-color: #018790;
+      grid-row-start: 9;
+      grid-row-end: 11;
+      grid-column-start: 8;
+      grid-column-end: 9;
+      font-family: Spinnaker;
+      color: #fff;
+      height: 50%;
+    }
 }
-/*
-1081, 1121, 1175,, 1018 1076
-*/
-@media screen and (max-width: 1121px) {
+@media screen and (max-width: 1121px) and (min-width:602px){
   #conferenciasdesktop {
     display: grid;
     grid-template-columns: 3% 15% 15% 2% 15% 15% 2% 15% 15% 3%;
@@ -3099,14 +3095,17 @@ partes resonsibas
   color: #FFFFFF;
   }
 }
-@media screen and (max-width: 1175px) {
+
+/* de aqui*/
+
+@media screen and (max-width: 1175px) and (min-width:602px) {
   #talleresdesktop {
     display: grid;
     grid-template-columns: 1% 20% 6% 16% 6% 1% 1% 20% 6% 16% 5% 1%;
     grid-template-rows:1px 80px 40px 20px 35px 35px 14px 30px 40px ;
   }
 }
-@media screen and (max-width: 1081px) {
+@media screen and (max-width: 1081px) and (min-width:602px) {
   .portada h3 {
     font-family: Spinnaker;
     font-weight: 100;
@@ -3135,7 +3134,7 @@ partes resonsibas
     margin: 0%;
   }
 }
-@media screen and (max-width: 1076px) {
+@media screen and (max-width: 1076px) and (min-width:602px) {
   #conferenciasdesktop {
     display: grid;
     grid-template-columns: 3% 15% 15% 2% 15% 15% 2% 15% 15% 3%;
@@ -3202,7 +3201,7 @@ partes resonsibas
 /*
 1018
 */
-@media screen and (max-width: 1018px) {
+@media screen and (max-width: 1018px) and (min-width:602px) {
   #talleresdesktop {
     display: grid;
     grid-template-columns: 1% 20% 6% 16% 6% 1% 1% 20% 6% 16% 5% 1%;
@@ -3215,14 +3214,14 @@ partes resonsibas
     grid-template-rows:30px 60px 70px 40px 150px 20px 80px;
   }
 }
-@media screen and (max-width: 999px) {
+@media screen and (max-width: 999px) and (min-width:602px) {
   #conferenciasdesktop {
     display: grid;
     grid-template-columns: 1% 15% 17% 2% 15% 17% 2% 15% 15% 1%;
     grid-template-rows:40px 115px 5px 100px 20px ;
   }
 }
-@media screen and (max-width: 892px) {
+@media screen and (max-width: 892px) and (min-width:602px) {
   #talleresdesktop {
     display: grid;
     grid-template-columns: 1% 20% 5% 18% 5% 1% 1% 20% 5% 18% 4% 1%;
@@ -3242,7 +3241,7 @@ partes resonsibas
   color: #FFFFFF;
   }
 }
-@media screen and (max-width: 874px) {
+@media screen and (max-width: 874px) and (min-width:610px) {
   #unete{
     background-color: #018790;
     display: grid;
@@ -3371,7 +3370,7 @@ partes resonsibas
     font-family: Spinnaker;
   }
 }
-@media screen and (max-width: 812px) {
+@media screen and (max-width: 812px) and (min-width:602px) {
   #talleresdesktop {
     display: grid;
     grid-template-columns: 1% 20% 5% 19% 5% 0% 0% 20% 5% 19% 4% 1%;
