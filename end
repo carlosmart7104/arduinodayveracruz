@@ -1,0 +1,52 @@
+[1mdiff --git a/public/index.html b/public/index.html[m
+[1mindex f1993f0..e9dbe4b 100644[m
+[1m--- a/public/index.html[m
+[1m+++ b/public/index.html[m
+[36m@@ -15,7 +15,7 @@[m
+ 	<body>[m
+ 			<link href="https://fonts.googleapis.com/css?family=Roboto|Spinnaker" rel="stylesheet">[m
+ [m
+[31m-	<div class='movil'>[m
+[32m+[m	[32m<div></div>[m[41m[m
+ 	<div class="nav">[m
+ 		<div class="nav-header">[m
+ 			<div class="nav-title">[m
+[36m@@ -45,38 +45,6 @@[m
+ 			<a href="#ubicacion">UBICACIÓN</a>[m
+ 		</div>[m
+ 	</div>[m
+[31m-	</div>[m
+[31m-	<div class='desktop'>[m
+[31m-		<div class="nav">[m
+[31m-			<div class="nav-header">[m
+[31m-				<div class="nav-title">[m
+[31m-					<a href="#home" >[m
+[31m-					<img src="./media/logo.svg" >[m
+[31m-				</a>[m
+[31m-				</div>[m
+[31m-			</div>[m
+[31m-			<div class="nav-btn">[m
+[31m-				<label for="nav-check">[m
+[31m-				<span></span>[m
+[31m-				<span></span>[m
+[31m-				<span></span>[m
+[31m-				</label>[m
+[31m-			</div>[m
+[31m-			<input type="checkbox" id="nav-check">[m
+[31m-			<div class="nav-links">[m
+[31m-				<a href="#que" >¿QUÉ ES ARDUINO DAY?</a>[m
+[31m-				<a href="#conferencias" >CONFERENCIAS</a>[m
+[31m-				<a href="#concursos" >CONCURSOS</a>[m
+[31m-				<a href="#feria">FERIA MAKER</a>[m
+[31m-				<a href="#talleres" >TALLERES</a>[m
+[31m-				<a href="#organizadores">ORGANIZADORES</a>[m
+[31m-				<a href="#unete1">ÚNETE</a>[m
+[31m-				<a href="#Patrocinadores">PATROCINADORES</a>[m
+[31m-				<a href="#aliados">ALIADOS</a>[m
+[31m-				<a href="#ubicacion">UBICACIÓN</a>[m
+[31m-			</div>[m
+[31m-		</div>[m
+[31m-		</div>[m
+ [m
+ 	<div class="container" id="home">[m
+ 		<div class="hero-image">[m

@@ -53,8 +53,15 @@ body {
   display: none;
   background-color: #018790;
 }
-
+@media screen and (min-width: 1301px) {
+  .movil{
+    display: none;
+  }
+}
 @media (max-width:1302px) {
+  .desktopnav{
+    display: none;
+  }
   .nav {
     height: 50px;
     width: 100%;
