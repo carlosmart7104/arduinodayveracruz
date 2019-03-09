@@ -2750,6 +2750,7 @@ Talleres
     margin: 0%;
   }
   #materiale {
+    display: none;
     grid-column-start: 3;
     grid-column-end: 6;
     grid-row-start: 6;
@@ -2762,6 +2763,7 @@ Talleres
     font-family: Spinnaker;
   }
   #costo {
+    display: none;
     grid-column-start: 3;
     grid-column-end: 6;
     grid-row-start: 5;
@@ -2832,6 +2834,7 @@ Talleres
     margin: 0%;
   }
   #materiale2 {
+    display: none;
     grid-column-start: 9;
     grid-column-end: 13;
     grid-row-start: 6;
@@ -2844,6 +2847,7 @@ Talleres
     font-family: Spinnaker;
   }
   #costo2 {
+    display: none;
     grid-column-start: 9;
     grid-column-end: 13;
     grid-row-start: 5;
@@ -2914,6 +2918,7 @@ Talleres
     font-family: Spinnaker;
   }
   .talleres #costo {
+    display: none;
     grid-column-start: 2;
     grid-row-start: 11;
     margin: 0%;
@@ -2921,6 +2926,7 @@ Talleres
     font-family: Spinnaker;
   }
   .talleres #materiales {
+    display: none;
     grid-column-start: 2;
     grid-row-start: 13;
     margin: 0%;
