@@ -131,7 +131,9 @@ body {
     background-color: #018790;
     height: 0px;
     transition: all 0.3s ease-in;
+    /*
     overflow-y: hidden;
+    */
     top: 50px;
     left: 0px;
   }
@@ -153,7 +155,9 @@ body {
   }
   .nav > #nav-check:checked + .nav-links {
     height: calc(100vh - 50px);
+    /*
     overflow-y: auto;
+    */
   }
 }
 
@@ -169,7 +173,7 @@ body {
     rgba(0, 0, 0, 0.5),
     rgba(0, 0, 0, 0.5)
   ), url("./media/portada.jpg");
-  height: 640px;
+  height: 100vh; /*1vh es 1% del alto de la pantalla, cara de pikachu*/
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

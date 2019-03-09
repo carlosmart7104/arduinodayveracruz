@@ -8,6 +8,7 @@ function myFunction() {
   }
 }
 
+
 var map = L.map('map').
 setView([19.174034, -96.188779],
 15);
