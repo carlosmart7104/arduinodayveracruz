@@ -307,7 +307,7 @@ body {
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
     ), url("./media/portada.jpg");
-    height: 600px;
+    height: 91vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
