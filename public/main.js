@@ -10,11 +10,11 @@ function myFunction() {
 
 
 var map = L.map('map').
-setView([19.174034, -96.188779],
+setView([19.1991897, -96.1621873],
 15);
 
 L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-maxZoom: 18
+maxZoom: 20
 }).addTo(map);
 L.control.scale().addTo(map);
 L.marker([41.66, -4.71],{draggable: true}).addTo(map);
