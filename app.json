@@ -2,7 +2,7 @@
   "name": "Arduino Day Veracruz",
   "description": "Página Web del segundo Arduino Day Veracruz",
   "repository": "https://github.com/carlosmart7104/arduinodayveracruz.git",
-  "logo": "https://cdn.rawgit.com/heroku/node-js-getting-started/master/public/node.svg",
+  "logo": "https://cdn.jsdelivr.net/gh/heroku/node-js-getting-started/public/node.svg",
   "keywords": ["Arduino","Day","Veracruz"],
   "image": "heroku/nodejs"
 }
